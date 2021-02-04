@@ -22,9 +22,9 @@ function getX(){
             console.log(denominater);
     
             if(calc1 > calc2){
-                output.innerHTML = calc1;
+                output.innerHTML = calc1.toFixed(4);
              }else{
-                 output.innerHTML = calc2;
+                 output.innerHTML = calc2.toFixed(4);
              }
         }else{
             output.innerHTML = 'No X-cofficients' + '<br><br>' + 'Result inside square root is a negative i.e  '  +  mul;
